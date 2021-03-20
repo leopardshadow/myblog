@@ -25,9 +25,9 @@ git push
 
 # update hugo site generating settings
 cd ..
-git add * -A
-git commit -m "$msg"
-git push
+#git add * -A
+#git commit -m "$msg"
+#git push
 
 # generates hugo site
 hugo
@@ -39,6 +39,10 @@ git commit -m "$msg"
 git push
 
 cd ..
+
+git add *
+git commit -m "$msg"
+git push
 
 
 
