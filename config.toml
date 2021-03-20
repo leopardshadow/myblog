@@ -3,12 +3,12 @@ title = "cchenglo"
 languageCode = "zh-tw"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
-disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+disqusShortname = "leopardshadow" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
   name = "cchenglo"
-  bio = "NCTU student,"
+  bio = "NCTU EE student, love cumputer and programming."
   avatar = "leopardshadow-1.png"
 
 [Params]
@@ -32,6 +32,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
   customCSS = ["css/custom.css"] # Include custom CSS files
   customJS = ["js/custom.js"] # Include custom JS files
+  # menu = ["main", "side", "footer"]
 
 [Params.style.vars]
   highlightColor = "#ec9900" # Override highlight color
@@ -44,7 +45,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.logo]
   image = "leopardshadow-1.png" # Logo image. Path relative to "static"
   title = "Cheng-Cheng Lo" # Logo title, otherwise will use site title
-  subtitle = "my personal blog" # Logo subtitle
+  subtitle = "my personal blog (under construction)" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -81,3 +82,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #   url = "http://example.com"
 
 
+[[menu.main]]
+  identifier = "about"
+  name = "About Me"
+  url = "/about/"
+  weight = -110
