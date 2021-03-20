@@ -7,9 +7,9 @@ disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
-  name = "Cheng-Cheng Lo"
+  name = "cchenglo"
   bio = "NCTU student,"
-  # avatar = "img/avatar.png"
+  avatar = "leopardshadow-1.png"
 
 [Params]
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
@@ -34,7 +34,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   customJS = ["js/custom.js"] # Include custom JS files
 
 [Params.style.vars]
-  highlightColor = "#fd8232" # Override highlight color
+  highlightColor = "#ec9900" # Override highlight color
 
   # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
   # Take care of different quotes OR escaping symbols in these params if necessary
@@ -42,7 +42,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  image = "leopardshadow-1.png" # Logo image. Path relative to "static"
   title = "Cheng-Cheng Lo" # Logo title, otherwise will use site title
   subtitle = "my personal blog" # Logo subtitle
 
