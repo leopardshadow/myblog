@@ -4,3 +4,6 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/leopardshadow/blog-contents
+[submodule "themes/mainroad"]
+	path = themes/mainroad
+	url = https://github.com/Vimux/mainroad
