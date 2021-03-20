@@ -87,3 +87,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   name = "About Me"
   url = "/about/"
   weight = -110
+
+[[menu.main]]
+  identifier = "github"
+  name = "Github"
+  url = "https://github.com/leopardshadow"
+  weight = 110
