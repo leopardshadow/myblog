@@ -15,6 +15,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "Cheng-Cheng Lo's personal blog." # Site description. Used in meta description
   copyright = "Cheng-Cheng Lo" # Footer copyright holder, otherwise will use site title
+  favicon = "favicon_grey.ico"
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = false # Enable Twitter Cards if true
