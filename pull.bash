@@ -1,6 +1,6 @@
 git pull
 
-cd publi/c
+cd public/
 git pull
 cd ..
 
