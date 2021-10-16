@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "zh-hant"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "cc blog"
+title = "cc-blog"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
